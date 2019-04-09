@@ -1,0 +1,45 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+
+  "description": "",
+
+  "accessories": [
+    {
+      "accessory": "Thermostat",
+      "name": "upstairs",
+      "fanRelayPin": 26,
+      "heatRelayPin": 21,
+      "coolRelayPin": 20,
+      "temperatureSensorPin": 4,
+      "minimumOnOffTime": 120000,
+      "blowerTurnOffTime": 80000,
+      "startDelay": 10000,
+      "temperatureCheckInterval": 10000
+    }
+    {
+      "accessory": "Thermostat",
+      "name": "downstairs",
+      "fanRelayPin": 25,
+      "heatRelayPin": 24,
+      "coolRelayPin": 23,
+      "temperatureSensorPin": 13,
+      "minimumOnOffTime": 120000,
+      "blowerTurnOffTime": 80000,
+      "startDelay": 10000,
+      "temperatureCheckInterval": 10000
+    }
+
+
+
+
+
+  ],
+
+  "platforms": [
+  ]
+}
