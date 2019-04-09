@@ -1,5 +1,5 @@
 {
-  "name": "cb-pi-therm",
+  "name": "@crbosse/cb-pi-therm",
   "version": "1.0.0",
   "description": "Hombridge plugin for thermostat",
   "main": "index.js",
