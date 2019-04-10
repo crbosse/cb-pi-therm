@@ -1,6 +1,6 @@
 {
-  "name": "cb-pi-therm",
-  "version": "1.0.2",
+  "name": "homebridge-cb-therm",
+  "version": "1.2.0",
   "description": "Hombridge plugin for thermostat",
   "main": "index.js",
   "engines": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crbosse/cb-pi-therm.git"
+    "url": "https://github.com/crbosse/homebridge-cb-therm.git"
   },
   "keywords": [
     "homebridge-plugin",
@@ -27,9 +27,8 @@
     "rpi-gpio": "^0.9.1"
   },
   "devDependencies": {
-    "eslint": "^14.13.1",
+    "eslint": "^4.13.1",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-standard": "^3.0.1"
   }
 }
-//make: Leaving directory '/usr/lib/node_modules/cb-pi-therm/node_modules/node-dht-sensor/build'
