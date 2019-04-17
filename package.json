@@ -2,7 +2,7 @@
   "name": "homebridge-cb-therm",
   "version": "1.2.0",
   "description": "Hombridge plugin for thermostat",
-  "main": "index.js",
+  "main": "cb.js",
   "engines": {
     "node": ">=6.12.2",
     "homebridge": ">=0.4.33"
